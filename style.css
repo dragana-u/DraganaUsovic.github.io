@@ -9,21 +9,67 @@
     display: inline-block;
     padding-left: 50px;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-}
+/*header{*/
+/*    width: 1000px;*/
+/*    margin: auto;*/
+/*}*/
 #main{
-    height: 650px;
-    background: linear-gradient(90deg, white 50%, black 50%);
-    width: 1250px;
-    margin: auto;
-    margin-top: 50px;
-}
-body {
-    background-image: url("images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("images/main-bg.jpg") no-repeat;
     background-size: cover;
+}
+#pt{
+    margin-left: 800px;
+    height: 800px;
+    width: auto;
+    margin-top: -200px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    transition: 0.4s;
+}
+nav a:hover {
+    background-color: white;
+    color: #ff4240;
+    padding: 10px 10px;
+}
+nav{
+    background-color: #ff4240;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+body{
+    background-color: #ff4240;
+    font-family: monospace;
+}
+.text{
+    width: 38%;
+}
+#intro{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: larger;
+}
+.text h2 {
+    color: white;
+    font-family: 'Mansalva', cursive;
+    overflow: hidden;
+    border-right: .13em solid red;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red }
 }
