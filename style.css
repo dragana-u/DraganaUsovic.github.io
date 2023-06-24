@@ -254,12 +254,38 @@ form{
 #hobbies{
     width: 500px;
     float: right;
-    margin-top: -400px;
+    margin-top: -440px;
     margin-right: 200px;
     line-height: 2em;
     color: white;
     text-align: justify;
+    background: rgba(255,0,10,0.68);
+}
+#hobbies p{
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #hobbies h1{
-    background: linear-gradient(30deg, white 40%, indianred 70%);
+    font-size: xxx-large;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    padding-bottom: 30px;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+#about{
+    background: url("images/black-board.png") no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+#note{
+    width: 500px;
+    height: 600px;
+}
+#text-contain{
+    width: 600px;
+    height: 700px;
 }
