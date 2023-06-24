@@ -17,7 +17,7 @@
     margin-left: 800px;
     height: 800px;
     width: auto;
-    margin-top: -480px;
+    margin-top: -560px;
 }
 nav a{
     text-decoration: none;
@@ -77,6 +77,7 @@ body{
     line-height: 2em;
     width: 40%;
     margin-bottom: 30px;
+    text-align: justify;
 }
 #learn-more{
     text-decoration: none;
@@ -181,4 +182,84 @@ form{
 }
 .contact img:hover{
     opacity: 0.8;
+}
+#travels{
+    background: url("images/travel-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+#travels img{
+    width: 500px;
+    height: 500px;
+}
+#travels p{
+    width: 300px;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.collage1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.collage2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-left: 50px;
+}
+#txt1{
+    padding-left: 40px;
+    background: rgba(233,233,211,0.25);
+    padding-top: 70px;
+    padding-right: 40px;
+}
+#txt2{
+    padding-right: 40px;
+    background: rgba(233,233,211,0.25);
+    padding-top: 100px;
+    padding-left: 40px;
+}
+#attr{
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+#lifestyle{
+    background: url("images/lifestyle-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+#handball{
+    margin-left: 100px;
+    margin-top: 300px;
+    height: 230px;
+    width: 400px;
+}
+#ohrid{
+    width: 240px;
+    height: 444px;
+}
+#chess{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    right: 674px;
+    bottom: 245px;
+}
+#lifestyle img{
+    border: 5px solid darkred;
+}
+#hobbies{
+    width: 500px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 200px;
+    line-height: 2em;
+    color: white;
+    text-align: justify;
+}
+#hobbies h1{
+    background: linear-gradient(30deg, white 40%, indianred 70%);
 }
