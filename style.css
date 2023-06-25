@@ -276,16 +276,61 @@ form{
     margin-top: -30px;
     margin-left: 70px;
 }
-#about{
-    background: url("images/black-board.png") no-repeat;
-    background-size: cover;
-    height: 1000px;
-}
-#note{
+#board{
     width: 500px;
-    height: 600px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top: -60px;
 }
-#text-contain{
-    width: 600px;
-    height: 700px;
+#about h1{
+    position: relative;
+    bottom: 140px;
+    left: 600px;
+    font-family: 'Mansalva', cursive;
+    color: #ff4240;
+    font-size: xxx-large;
+}
+#paragraphs{
+    width: 1000px;
+    margin: auto;
+    font-size: large;
+}
+#paragraphs p{
+    padding: 5px 20px;
+    text-align: justify;
+}
+#about  p:nth-child(1),#about  p:nth-child(2){
+    width: 50%;
+}
+#about p:nth-child(2){
+    background: brown;
+    float: right;
+    margin-top: -170px;
+    margin-right: -80px;
+    height: 160px;
+    color: whitesmoke;
+}
+#about  p:nth-child(1){
+   background: whitesmoke;
+    color: brown;
+    height: 160px;
+}
+#about p:nth-child(3){
+    background: darkgrey;
+    color: crimson;
+    width: 1040px;
+    text-align: center;
+}
+q{
+    font-weight: bold;
+    display: block;
+    transition: 0.4s;
+}
+b:hover{
+    font-size: xx-large;
+    transition: 0.4s;
+}
+q:hover{
+    background: #ff4240;
+    color: darkgrey;
 }
